@@ -2,13 +2,10 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Arrays;
 
 public class CalcForm extends JFrame {
     private JPanel frame;
-    private JTextField numTwo;
-    private JTextField numOne;
-    private JComboBox symbol;
-    private JButton krysaButton;
     private JLabel resultLabel;
     private JButton plus;
     private JButton minus;
@@ -25,6 +22,7 @@ public class CalcForm extends JFrame {
     private JButton four;
     private JButton one;
     private JButton slash;
+    private JButton krysaButton;
     private JLabel resultText;
 
     private void initComponents() {
@@ -38,6 +36,18 @@ public class CalcForm extends JFrame {
 
     public CalcForm() {
         initComponents();
+
+        final int[] numOne = {0};
+        int numTwo = 0;
+        double result = 0;
+
+        one.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                numOne[0] = Integer.parseInt(one.getText());
+                resultLabel.setText(Arrays.toString(numOne));
+            }
+        });
     }
 
     public static void main(String[] args) {
