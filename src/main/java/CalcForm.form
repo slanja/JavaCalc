@@ -13,6 +13,7 @@
           <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Motiva Sans Medium" size="20"/>
           <text value="Krysa"/>
         </properties>
       </component>
@@ -21,6 +22,7 @@
           <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Motiva Sans Medium" size="20"/>
           <text value="+"/>
         </properties>
       </component>
@@ -29,6 +31,7 @@
           <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Motiva Sans Medium" size="20"/>
           <text value="-"/>
         </properties>
       </component>
@@ -37,6 +40,7 @@
           <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Motiva Sans Medium" size="20"/>
           <text value="*"/>
         </properties>
       </component>
@@ -45,6 +49,7 @@
           <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Motiva Sans Medium" size="20"/>
           <text value="3"/>
         </properties>
       </component>
@@ -53,6 +58,7 @@
           <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Motiva Sans Medium" size="20"/>
           <text value="6"/>
         </properties>
       </component>
@@ -61,6 +67,7 @@
           <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Motiva Sans Medium" size="20"/>
           <text value="9"/>
         </properties>
       </component>
@@ -69,6 +76,7 @@
           <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Motiva Sans Medium" size="20"/>
           <text value="."/>
         </properties>
       </component>
@@ -77,6 +85,7 @@
           <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Motiva Sans Medium" size="20"/>
           <text value="8"/>
         </properties>
       </component>
@@ -85,6 +94,7 @@
           <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Motiva Sans Medium" size="20"/>
           <text value="5"/>
         </properties>
       </component>
@@ -93,6 +103,7 @@
           <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Motiva Sans Medium" size="20"/>
           <text value="2"/>
         </properties>
       </component>
@@ -101,6 +112,7 @@
           <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Motiva Sans Medium" size="20"/>
           <text value="0"/>
         </properties>
       </component>
@@ -109,6 +121,7 @@
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Motiva Sans Medium" size="20"/>
           <text value="7"/>
         </properties>
       </component>
@@ -117,6 +130,7 @@
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Motiva Sans Medium" size="20"/>
           <text value="4"/>
         </properties>
       </component>
@@ -125,6 +139,7 @@
           <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Motiva Sans Medium" size="20"/>
           <text value="1"/>
         </properties>
       </component>
@@ -133,17 +148,18 @@
           <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Motiva Sans Medium" size="20"/>
           <text value="/"/>
         </properties>
       </component>
-      <component id="c9eb9" class="javax.swing.JLabel" binding="resultLabel">
+      <component id="30bac" class="javax.swing.JTextField" binding="resultLabel">
         <constraints>
-          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
         </constraints>
         <properties>
-          <font name="Carlito" size="36"/>
-          <foreground color="-394241"/>
-          <text value="0"/>
+          <font name="Motiva Sans Medium" size="36"/>
         </properties>
       </component>
     </children>
