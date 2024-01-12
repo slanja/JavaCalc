@@ -6,7 +6,6 @@ import java.util.Arrays;
 
 public class CalcForm extends JFrame {
     private JPanel frame;
-    private JLabel resultLabel;
     private JButton plus;
     private JButton minus;
     private JButton astaris;
@@ -23,12 +22,14 @@ public class CalcForm extends JFrame {
     private JButton one;
     private JButton slash;
     private JButton krysaButton;
-    private JLabel resultText;
+    private JTextField resultLabel;
 
     private void initComponents() {
         setContentPane(frame);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(350, 500);
+        setMinimumSize(new Dimension(350, 500));
+        setMaximumSize(new Dimension(350, 500));
         setTitle("JavaCalc");
         setVisible(true);
         frame.setBackground(Color.decode("#2b2b2b"));
@@ -37,17 +38,34 @@ public class CalcForm extends JFrame {
     public CalcForm() {
         initComponents();
 
-        final int[] numOne = {0};
-        int numTwo = 0;
-        double result = 0;
+        buttonListener();
+    }
 
-        one.addActionListener(new ActionListener() {
+    public void buttonListener() {
+        ActionListener buttonListener = new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                numOne[0] = Integer.parseInt(one.getText());
-                resultLabel.setText(Arrays.toString(numOne));
+                if (actionEvent.getSource() == one) resultLabel.setText(resultLabel.getText() + one.getText());
+                else if (actionEvent.getSource() == two) resultLabel.setText(resultLabel.getText() + two.getText());
+                else if (actionEvent.getSource() == three) resultLabel.setText(resultLabel.getText() + three.getText());
+                else if (actionEvent.getSource() == four) resultLabel.setText(resultLabel.getText() + four.getText());
+                else if (actionEvent.getSource() == five) resultLabel.setText(resultLabel.getText() + five.getText());
+                else if (actionEvent.getSource() == six) resultLabel.setText(resultLabel.getText() + six.getText());
+                else if (actionEvent.getSource() == seven) resultLabel.setText(resultLabel.getText() + seven.getText());
+                else if (actionEvent.getSource() == eight) resultLabel.setText(resultLabel.getText() + eight.getText());
+                else if (actionEvent.getSource() == nine) resultLabel.setText(resultLabel.getText() + nine.getText());
             }
-        });
+        };
+
+        one.addActionListener(buttonListener);
+        two.addActionListener(buttonListener);
+        three.addActionListener(buttonListener);
+        four.addActionListener(buttonListener);
+        five.addActionListener(buttonListener);
+        six.addActionListener(buttonListener);
+        seven.addActionListener(buttonListener);
+        eight.addActionListener(buttonListener);
+        nine.addActionListener(buttonListener);
     }
 
     public static void main(String[] args) {
