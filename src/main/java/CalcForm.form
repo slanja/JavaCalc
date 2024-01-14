@@ -8,13 +8,14 @@
     <properties/>
     <border type="none"/>
     <children>
-      <component id="840da" class="javax.swing.JButton" binding="krysaButton" default-binding="true">
+      <component id="840da" class="javax.swing.JButton" binding="division">
         <constraints>
           <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font name="Motiva Sans Medium" size="20"/>
-          <text value="Krysa"/>
+          <horizontalTextPosition value="11"/>
+          <text value="/"/>
         </properties>
       </component>
       <component id="8ba63" class="javax.swing.JButton" binding="plus">
@@ -35,7 +36,7 @@
           <text value="-"/>
         </properties>
       </component>
-      <component id="36457" class="javax.swing.JButton" binding="astaris">
+      <component id="36457" class="javax.swing.JButton" binding="times">
         <constraints>
           <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -71,13 +72,13 @@
           <text value="9"/>
         </properties>
       </component>
-      <component id="fe6b9" class="javax.swing.JButton" binding="del">
+      <component id="fe6b9" class="javax.swing.JButton" binding="equal">
         <constraints>
           <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font name="Motiva Sans Medium" size="20"/>
-          <text value="."/>
+          <text value="="/>
         </properties>
       </component>
       <component id="b8eb1" class="javax.swing.JButton" binding="eight">
@@ -143,13 +144,13 @@
           <text value="1"/>
         </properties>
       </component>
-      <component id="91759" class="javax.swing.JButton" binding="slash">
+      <component id="91759" class="javax.swing.JButton" binding="del">
         <constraints>
           <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font name="Motiva Sans Medium" size="20"/>
-          <text value="/"/>
+          <text value="."/>
         </properties>
       </component>
       <component id="30bac" class="javax.swing.JTextField" binding="resultLabel">
@@ -159,7 +160,10 @@
           </grid>
         </constraints>
         <properties>
-          <font name="Motiva Sans Medium" size="36"/>
+          <font name="Motiva Sans Medium" size="48"/>
+          <foreground color="-13947600"/>
+          <horizontalAlignment value="4"/>
+          <text value=""/>
         </properties>
       </component>
     </children>
